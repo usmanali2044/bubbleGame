@@ -19,7 +19,7 @@ function addTimer(){
             timer--;
         }else{
             clearInterval(timer);
-            document.querySelector("#btmpanel").innerHTML = `Game Over`;
+            document.querySelector("#btmpanel").innerHTML = `Game Over <br> <br> Score : ${score}`;
         }
     },1000)
 
